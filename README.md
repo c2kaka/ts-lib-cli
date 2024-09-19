@@ -1,6 +1,6 @@
 Certainly. Here's the README.md content in English:
 
-# ts-lib-scaffold
+# create-ts-lib-cli
 
 ts-lib-scaffold is a command-line interface (CLI) tool for creating TypeScript libraries. It helps developers quickly set up the basic structure of a TypeScript library project and configure common development tools.
 
