@@ -1,0 +1,33 @@
+{
+  "name": "ts-lib-cli",
+  "version": "1.0.0",
+  "description": "CLI for creating TypeScript libraries",
+  "main": "dist/index.js",
+  "bin": {
+    "ts-lib-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "pnpm run build"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^11.0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  }
+}
