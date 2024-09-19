@@ -1,5 +1,5 @@
 {
-  "name": "ts-lib-cli",
+  "name": "@fanoy/ts-lib-cli",
   "version": "1.0.0",
   "description": "CLI for creating TypeScript libraries",
   "main": "dist/index.js",
